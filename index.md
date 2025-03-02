@@ -3,5 +3,7 @@ layout: default
 title: Home
 ---
 
-<a href="/sub.html">About</a>
+
+<a href="/about.html">About</a>
+
 here index
