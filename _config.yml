@@ -1,0 +1,6 @@
+# # ルートディレクトリの指定
+# sass:
+#     sass_dir: _sass
+# # 圧縮の設定
+# sass:
+#     style: compressed
