@@ -1,8 +1,3 @@
----
-layout: default
-title: Home
----
-
 <!-- 以下のscriptによってコンパイルで文字を確認するためのコード
 実装ではincludesとlayoutsで可能 -->
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
