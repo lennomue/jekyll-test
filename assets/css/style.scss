@@ -2,7 +2,7 @@
 ---
 
 // @import "{{ site.theme }}";
-// @import "normalize.css/normalize";
+@import "normalize.css/normalize";
 
 .header {
     position: fixed;
