@@ -1,2 +1,0 @@
-styles/website.cssは効いてない
-githubpagesの仕組みを利用して外付けのcssをかけたら嬉しいけど、現状は埋め込みで処理
