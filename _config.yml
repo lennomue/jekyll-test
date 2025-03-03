@@ -1,1 +1,13 @@
-title: ""  # 空にすることでリポジトリ名を非表示にする
+title: ""  # リポジトリ名を非表示にする
+
+# アセットの設定
+sass:
+  style: compressed
+  sass_dir: _sass
+  load_paths:
+    - _sass
+    - assets/css
+
+# アセットのインクルード設定
+include:
+  - assets
