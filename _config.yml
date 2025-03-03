@@ -1,7 +1,7 @@
-# # ルートディレクトリの指定
-# sass:
-#     sass_dir: _sass
-# # 圧縮の設定
-# sass:
-#     style: compressed
 include: ['assets']
+plugins:
+  - jekyll-sass-converter
+
+sass:
+  sass_dir: _scss
+  style: compressed
