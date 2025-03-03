@@ -35,10 +35,10 @@ jobs:
         with:
           source: ./
           destination: ./_site
+          config: ./_config.yml # check _config.yml to hide top title
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        config: ./_config.yml # check _config.yml to hide top title
-
+        
   # Deployment job
   deploy:
     environment:
