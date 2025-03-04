@@ -14,3 +14,13 @@ window.addEventListener('scroll', () => {
     
     lastScrollTop = scrollTop;
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("details summary").forEach(summary => {
+        summary.addEventListener("click", function() {
+            if (window.MathJax) {
+                MathJax.typesetPromise();
+            }
+        });
+    });
+});

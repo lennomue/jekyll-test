@@ -4,9 +4,17 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
     <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-    <div class = "container-lg px-3 my-5 markdown-body">
+    <!-- <script src="script.js"></script> -->
+    <div class="header header-color-home">
+        <a href="https://tokozemi.securesite.jp/">
+            <img src="./Image/tokozemi_logo_touka.PNG" alt="サイトロゴ">
+        </a>
+    </div>
+    <div style="height: 30px; background-color:rgb(255, 255, 255);"></div>
+    <div class = "markdown-body">
     {{ content }}
     </div>
 </body>
