@@ -1,3 +1,4 @@
+// ページヘッダーを動かす
 let lastScrollTop = 0;
 const header = document.querySelector('.header');
 
@@ -15,6 +16,8 @@ window.addEventListener('scroll', () => {
     lastScrollTop = scrollTop;
 });
 
+
+// Math系のライブラリを必要なら読み込むようにする
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll("details summary").forEach(summary => {
         summary.addEventListener("click", function() {

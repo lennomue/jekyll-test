@@ -3,23 +3,8 @@ layout: default
 title: ""
 ---
 
-<!-- 以下のscriptによってコンパイルで文字を確認するためのコード
-実装ではincludesとlayoutsで可能 -->
-<!-- <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll("details summary").forEach(summary => {
-        summary.addEventListener("click", function() {
-            if (window.MathJax) {
-                MathJax.typesetPromise();
-            }
-        });
-    });
-});
-</script> -->
-
 ---
-[TOP](./README.md)
+[TOP](./index.html)
 
 ---
 # クイズまとめサイト!
