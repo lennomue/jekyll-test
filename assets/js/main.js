@@ -2,16 +2,17 @@
 let lastScrollTop = 0;
 const header = document.querySelector('.header');
 
+// ヘッダーの表示状態を更新する関数
+function updateHeaderVisibility() {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrollTop === 0) {
+        header.classList.remove('header--hidden');
+    }
+}
+
 window.addEventListener('scroll', () => {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     
-    // ページトップでは常にヘッダーを表示
-    if (scrollTop === 0) {
-        header.classList.remove('header--hidden');
-        lastScrollTop = scrollTop;
-        return;
-    }
-
     if (scrollTop > lastScrollTop) {
         // 下スクロール時
         header.classList.add('header--hidden');
@@ -21,8 +22,13 @@ window.addEventListener('scroll', () => {
     }
     
     lastScrollTop = scrollTop;
+
+    // スクロール後にヘッダーの表示状態を更新
+    updateHeaderVisibility();
 });
 
+// 定期的にヘッダーの表示状態を確認・更新
+setInterval(updateHeaderVisibility, 100);
 
 // Math系のライブラリを必要なら読み込むようにする
 document.addEventListener("DOMContentLoaded", function() {
