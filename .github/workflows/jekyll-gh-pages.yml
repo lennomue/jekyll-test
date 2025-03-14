@@ -37,10 +37,10 @@ jobs:
           destination: ./_site
           config: ./_config.yml # check _config.yml to hide top title
       # add-
-      # - name: Copy assets
-      #   run: |
-      #     mkdir -p _site/assets/js
-      #     cp -r assets/js/* _site/assets/js/ || true
+      - name: Copy assets
+        run: |
+          mkdir -p _site/assets/js
+          cp -r assets/js/* _site/assets/js/ || true
       # -add
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

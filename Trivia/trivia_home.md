@@ -1,7 +1,7 @@
 <div style="height: 30px; background-color:rgb(255, 255, 255);"></div>
 
 ---
-[TOP](../README.md) > [保管庫](../SUMMARY.md) > [トリビア](./trivia_home.md)
+[TOP](../index.md) > [保管庫](../SUMMARY.md) > [トリビア](./trivia_home.md)
 
 ---
 # トリビア！

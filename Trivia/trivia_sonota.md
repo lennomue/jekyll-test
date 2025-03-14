@@ -1,7 +1,7 @@
 <div style="height: 30px; background-color:rgb(255, 255, 255);"></div>
 
 ---
-[TOP](../README.md) > [保管庫](../SUMMARY.md) > [トリビア](./trivia_home.md) > [難読漢字](./trivia_kanji.md)
+[TOP](../index.md) > [保管庫](../SUMMARY.md) > [トリビア](./trivia_home.md) > [難読漢字](./trivia_kanji.md)
 
 ---
 # トリビア！ - その他
@@ -27,47 +27,7 @@
     z-index: 1000; /* 他の要素より前面に表示 */
     transition: transform 0.3s ease-in-out; /* スムーズなアニメーション */
 }
-
-.header--hidden {
-    transform: translateY(-100%);
-}
-
-/* ロゴ画像のスタイル */
-.header img {
-    height: 40px; /* ロゴ画像の高さ */
-    cursor: pointer; /* クリック可能なポインターを表示 */
-    transition: transform 0.3s ease; /* ホバー時のアニメーション */
-    background-color: transparent; /* 背景を透明に指定 */
-    image-rendering: auto; /* PNG画像のレンダリング設定 */
-}
 </style>
-
-<div class="header">
-    <a href="https://tokozemi.securesite.jp/">
-        <img src="../Image/tokozemi_logo_touka.PNG" alt="サイトロゴ">
-    </a>
-</div>
-
-<script type="text/javascript">
-{
-    let lastScrollTop = 0;
-    const header = document.querySelector('.header');
-    
-    window.addEventListener('scroll', () => {
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        
-        if (scrollTop > lastScrollTop) {
-            // 下スクロール時
-            header.classList.add('header--hidden');
-        } else {
-            // 上スクロール時
-            header.classList.remove('header--hidden');
-        }
-        
-        lastScrollTop = scrollTop;
-    });
-}
-</script>
 
 - [トリビア！ - その他](#トリビア---その他)
     - [昼過ぎの眠気](#昼過ぎの眠気)

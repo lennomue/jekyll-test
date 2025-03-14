@@ -8,7 +8,7 @@ header_script: true
 <div style="height: 30px; background-color:rgb(255, 255, 255);"></div>
 
 ---
-[TOP](../README.md) > [保管庫](../SUMMARY.md) > [パズル](./puzzle_home.md) > [図形](./puzzle_zukei.md)
+[TOP](../index.md) > [保管庫](../SUMMARY.md) > [パズル](./puzzle_home.md) > [図形](./puzzle_zukei.md)
 
 ---
 # パズル！ - 図形

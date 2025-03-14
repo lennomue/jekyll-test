@@ -1,7 +1,7 @@
 <div style="height: 30px; background-color:rgb(255, 255, 255);"></div>
 
 ---
-[TOP](../README.md) > [保管庫](../SUMMARY.md) > [パズル](./puzzle_home.md) > [計算](./puzzle_keisan.md)
+[TOP](../index.md) > [保管庫](../SUMMARY.md) > [パズル](./puzzle_home.md) > [計算](./puzzle_keisan.md)
 
 ---
 # パズル！ - 計算
