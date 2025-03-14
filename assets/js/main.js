@@ -1,7 +1,8 @@
 // ページヘッダーを動かす
 let lastScrollTop = 0;
 const header = document.querySelector('.header');
-const scrollThreshold = 5;  // スクロールの閾値を設定
+const scrollThreshold = 10;  // スクロールの閾値を増加
+let isScrolling;  // スクロール中かどうかを追跡
 
 window.addEventListener('scroll', () => {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -13,17 +14,20 @@ window.addEventListener('scroll', () => {
         return;
     }
 
-    // 小さなスクロール量は無視
-    if (Math.abs(scrollTop - lastScrollTop) <= scrollThreshold) {
-        return;
-    }
+    // スクロール中のタイマーをクリア
+    window.clearTimeout(isScrolling);
 
-    if (scrollTop > lastScrollTop) {
-        // 下スクロール時
+    // スクロールが終了したと判断するまで待機
+    isScrolling = setTimeout(() => {
+        // スクロールが上向きで、かつ大きな移動量の場合のみヘッダーを表示
+        if (scrollTop < lastScrollTop && Math.abs(scrollTop - lastScrollTop) > scrollThreshold) {
+            header.classList.remove('header--hidden');
+        }
+    }, 66);  // スクロール終了判定の待機時間
+
+    // 下スクロール時のみヘッダーを隠す
+    if (scrollTop > lastScrollTop && Math.abs(scrollTop - lastScrollTop) > scrollThreshold) {
         header.classList.add('header--hidden');
-    } else {
-        // 上スクロール時
-        header.classList.remove('header--hidden');
     }
     
     lastScrollTop = scrollTop;
