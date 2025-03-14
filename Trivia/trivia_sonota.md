@@ -1,3 +1,7 @@
+---
+layout: trivia
+title: "トリビア! - その他"
+---
 
 ---
 [TOP](../index.md) > [保管庫](../SUMMARY.md) > [トリビア](./trivia_home.md) > [その他](./trivia_sonota.md)
@@ -9,24 +13,6 @@
 <p style="color: gray; font-size: 12px;">
 最終更新(2025/02/26)　投稿日(2025/01/12)
 </p>
-
-<style>
-.header {
-    position: fixed; /* 画面上部に固定 */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60px; /* ヘッダーの高さ */
-    background-color: rgba(255, 179, 158, 0.31); /* 背景色（濃いグレー） */
-    color: #fff; /* テキスト色（白） */
-    display: flex; /* フレックスボックスでレイアウト */
-    align-items: center; /* 縦方向中央揃え */
-    justify-content: center; /* 左右に要素を配置 */
-    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1); /* 軽い影 */
-    z-index: 1000; /* 他の要素より前面に表示 */
-    transition: transform 0.3s ease-in-out; /* スムーズなアニメーション */
-}
-</style>
 
 - [トリビア！ - その他](#トリビア---その他)
     - [昼過ぎの眠気](#昼過ぎの眠気)
