@@ -28,7 +28,7 @@ window.addEventListener('scroll', () => {
 });
 
 // 定期的にヘッダーの表示状態を確認・更新
-// setInterval(updateHeaderVisibility, 100);
+setInterval(updateHeaderVisibility, 100);
 
 // Math系のライブラリを必要なら読み込むようにする
 document.addEventListener("DOMContentLoaded", function() {
