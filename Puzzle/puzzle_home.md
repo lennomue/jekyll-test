@@ -4,7 +4,7 @@ title: "パズル！"  # ページのタイトル
 ---
 
 ---
-[TOP](../index.md) > [保管庫](../SUMMARY.md) > [パズル](./puzzle_home.md)
+[TOP](../index.html) > [保管庫](../SUMMARY.html) > [パズル](./puzzle_home.md)
 
 ---
 # パズル！

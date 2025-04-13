@@ -4,7 +4,7 @@ title: "パズル！ - 計算"  # ページのタイトル
 ---
 
 ---
-[TOP](../index.md) > [保管庫](../SUMMARY.md) > [パズル](./puzzle_home.md) > [計算](./puzzle_keisan.md)
+[TOP](../index.html) > [保管庫](../SUMMARY.html) > [パズル](./puzzle_home.html) > [計算](./puzzle_keisan.html)
 
 ---
 # パズル！ - 計算
