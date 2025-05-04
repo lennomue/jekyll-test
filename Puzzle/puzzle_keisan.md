@@ -10,15 +10,19 @@ title: "パズル！ - 計算"  # ページのタイトル
 <div style="text-align: center;">
 <img src="../Image/puzzle/puzzle_logo.png" width="300px">
 </div>
-  
+
 ---
 <p style="color: gray; font-size: 12px;">
 最終更新(2025/02/27)　投稿日(2025/01/12)
 </p>
 
-- [ひもで時間計測](#ひもで時間計測)
-- [ピッタリ水汲み](#ピッタリ水汲み)
-- [奇数の和](#奇数の和)
+<ul>
+  <li><a href="#ひもで時間計測">ひもで時間計測</a></li>
+  <li><a href="#ピッタリ水汲み">ピッタリ水汲み</a></li>
+  <li><a href="#奇数の和">奇数の和</a></li>
+  <!-- <li><a href="タイトル">タイトル</a></li> -->
+</ul>
+
 
 ---
 ### ひもで時間計測
@@ -63,6 +67,7 @@ Q. 5Lと3Lの容器が一つずつあります。これを用いて以下の2操
 </details>
 
 ---
+
 ### 奇数の和
 Q. 1から100までの整数を全て足すと5050。ではその中に含まれる「奇数」だけ
 を全て足すといくつになる？
@@ -74,5 +79,32 @@ Q. 1から100までの整数を全て足すと5050。ではその中に含まれ
   \(B-A=50\)<br>
   従って奇数のブロックは\(A=2500\)</p>
 </details>
+
+---
+
+<div class = "question">
+question zone from here ("to here")<br>
+content with nothing<br>
+<p>content with p tag</p>
+<details>
+  <summary> 答え </summary>
+  <p>A. 2500</p>
+  <p>下の図の様に二つのブロックに分けて考える。<br>
+  \(A+B=5050\)であり、AとBの差は1ずつ50回あるので
+  \(B-A=50\)<br>
+  従って奇数のブロックは\(A=2500\)</p>
+</details>
+to here
+</div>
+
+---
+
+<div class = "question">
+<h3 id = "問題タイトル">問題タイトル</h3>
+<div class="statement">
+問題文章
+</div>
+</div>
+
 
 ---
