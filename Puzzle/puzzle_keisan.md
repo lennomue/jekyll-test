@@ -100,10 +100,10 @@ to here
 ---
 
 <div class = "question">
-  <h3 id = "問題タイトル">問題タイトル</h3>
-    <div class="statement">
-    問題文章
-    </div>
+  <h3 class="title" id = "問題タイトル">問題タイトル</h3>
+  <div class="statement">
+  問題文章
+  </div>
 </div>
 
 

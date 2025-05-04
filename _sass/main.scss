@@ -6812,8 +6812,11 @@ pre {
     border: solid 1px #a1a499;
     border-radius: 5px;
     background-color: #f47272;
-    font-size: 1.1em;
     margin-bottom: 1.2em;
+}
+
+.question .title {
+    font-size: 1.1em;
     letter-spacing: 0.1em;
 }
 
@@ -6824,5 +6827,4 @@ pre {
     background-color: #109ed6;
     font-size: 1em;
     margin-bottom: 1.2em;
-    letter-spacing: 0.1em;
 }
