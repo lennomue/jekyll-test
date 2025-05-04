@@ -76,7 +76,7 @@ Q. 次の図の「?」の角度は？
 <details>
     <summary> 答え </summary>
     <div style="text-align: center;">
-    ≈
+    <img src="../Image/puzzle/zukei/puzzle_zukei_kakudo_01_a_01.png" width="150px">
   </div>
   <p>この補助線によって上側2辺を見ると、直角かつ同じ長さである。<br>
   従って\(90°,45°,45°\)の三角形とわかる。求めるのは\(45°\)</p>

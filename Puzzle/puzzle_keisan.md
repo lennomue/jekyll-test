@@ -7,8 +7,10 @@ title: "パズル！ - 計算"  # ページのタイトル
 [TOP](../index.html) > [保管庫](../SUMMARY.html) > [パズル](./puzzle_home.html) > [計算](./puzzle_keisan.html)
 
 ---
+<div style="text-align: center;">
 <img src="../Image/puzzle/puzzle_logo.png" width="300px">
-
+</div>
+  
 ---
 <p style="color: gray; font-size: 12px;">
 最終更新(2025/02/27)　投稿日(2025/01/12)
@@ -64,12 +66,6 @@ Q. 5Lと3Lの容器が一つずつあります。これを用いて以下の2操
 ### 奇数の和
 Q. 1から100までの整数を全て足すと5050。ではその中に含まれる「奇数」だけ
 を全て足すといくつになる？
-<details>
-  <summary> ヒント </summary>
-  <p>4Lを(3+1)Lと見るなら1Lを作りたい。<br>
-  他にも(5-1)Lと見るなら5L満杯から3L容器に1L入れることを考える。その時の3L容器に2Lだけあれば良い。<br>
-  つまり3, 5以外にも1, 2Lの水を作ることを目標にする。</p>
-</details>
 <details>
   <summary> 答え </summary>
   <p>A. 2500</p>
