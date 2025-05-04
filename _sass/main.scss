@@ -6820,11 +6820,13 @@ pre {
     letter-spacing: 0.1em;
 }
 
-.question .statemant {
+.question .statement {
     padding: 1em;
     border: solid 1px #2e4a5f;
     border-radius: 5px;
     background-color: #109ed6;
     font-size: 1em;
     margin-bottom: 1.2em;
+    position: relative;   // z-indexを効かせるため
+    z-index: 1;
 }
