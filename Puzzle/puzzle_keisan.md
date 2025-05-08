@@ -20,6 +20,7 @@ title: "パズル！ - 計算"  # ページのタイトル
   <li><a href="#ひもで時間計測">ひもで時間計測</a></li>
   <li><a href="#ピッタリ水汲み">ピッタリ水汲み</a></li>
   <li><a href="#奇数の和">奇数の和</a></li>
+  <li><a href="問題タイトル">問題タイトル</a></li>
   <!-- <li><a href="タイトル">タイトル</a></li> -->
 </ul>
 
@@ -100,9 +101,18 @@ to here
 ---
 
 <div class = "question">
-  <h3 class="title" id = "問題タイトル">問題タイトル</h3>
+  <h3 class="title" id = "問題タイトル">問題タイトル、titleクラス</h3>
+  <h3 id = "問題タイトル-サイズのテスト">問題タイトル、ただのh3タグ</h3>
   <div class="statement">
-  問題文章
+  <p>content with p tag</p>
+  <details>
+    <summary> 答え </summary>
+    <p>A. 2500</p>
+    <p>下の図の様に二つのブロックに分けて考える。<br>
+    \(A+B=5050\)であり、AとBの差は1ずつ50回あるので
+    \(B-A=50\)<br>
+    従って奇数のブロックは\(A=2500\)</p>
+  </details>
   </div>
 </div>
 
