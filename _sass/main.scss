@@ -6810,14 +6810,15 @@ pre {
 .question {
     padding: 1em;
     padding-top: 0em;
-    border: solid 1px #a1a499;
-    border-radius: 5px;
-    background-color: #f47272;
-    margin-bottom: 1.2em;
+    border: solid 1px #8e8e8e;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 0px;
 }
 
 .question .title {
-    margin-top: 5px;
+    margin-top: 12px;
+    margin-bottom: 12px;
     // font-size: 1.2em;
     // letter-spacing: 0.1em;
 }
@@ -6826,9 +6827,9 @@ pre {
     padding: 1em;
     border: solid 1px #2e4a5f;
     border-radius: 5px;
-    background-color: #109ed6;
+    background-color: #d3d3d3;
     font-size: 1em;
-    margin-bottom: 1.2em;
+    margin-bottom: 12px;
     position: relative;   // z-indexを効かせるため
     z-index: 1;
 }
@@ -6836,5 +6837,5 @@ pre {
 .center-text {
     text-align: center;     /* 中央揃え */
     font-weight: bold;      /* 太字 */
-    font-size: 24px;        /* サイズ指定（例: 24px） */
+    font-size: 40px;        /* サイズ指定（例: 24px） */
 }
