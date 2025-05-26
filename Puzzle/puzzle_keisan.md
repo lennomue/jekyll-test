@@ -7,11 +7,10 @@ title: "パズル！ - 計算"  # ページのタイトル
 [TOP](../index.html) > [保管庫](../SUMMARY.html) > [パズル](./puzzle_home.html) > [計算](./puzzle_keisan.html)
 
 ---
-<div style="text-align: center;">
-<img src="../Image/puzzle/puzzle_logo.png" width="300px">
-</div>
+<div class="center-text">パズル！-計算</div>
 
 ---
+
 <p style="color: gray; font-size: 12px;">
 最終更新(2025/02/27)　投稿日(2025/01/12)
 </p>
@@ -20,8 +19,8 @@ title: "パズル！ - 計算"  # ページのタイトル
   <li><a href="#ひもで時間計測">ひもで時間計測</a></li>
   <li><a href="#ピッタリ水汲み">ピッタリ水汲み</a></li>
   <li><a href="#奇数の和">奇数の和</a></li>
-  <li><a href="問題タイトル">問題タイトル</a></li>
-  <!-- <li><a href="タイトル">タイトル</a></li> -->
+  <li><a href="#一文字違い">一文字違い</a></li>
+  <!-- <li><a href="#タイトル">タイトル</a></li> -->
 </ul>
 
 
@@ -39,6 +38,7 @@ Q. ちょうど1時間で燃えるひもが2本あります。マッチとひも
 </details>
 
 ---
+
 ### ピッタリ水汲み
 Q. 5Lと3Lの容器が一つずつあります。これを用いて以下の2操作だけで4Lを計量してください。
 - 水を満杯まで入れる
@@ -70,8 +70,7 @@ Q. 5Lと3Lの容器が一つずつあります。これを用いて以下の2操
 ---
 
 ### 奇数の和
-Q. 1から100までの整数を全て足すと5050。ではその中に含まれる「奇数」だけ
-を全て足すといくつになる？
+Q. 1から100までの整数を全て足すと5050。ではその中に含まれる「奇数」だけを全て足すといくつになる？
 <details>
   <summary> 答え </summary>
   <p>A. 2500</p>
@@ -84,34 +83,31 @@ Q. 1から100までの整数を全て足すと5050。ではその中に含まれ
 ---
 
 <div class = "question">
-question zone from here ("to here")<br>
-content with nothing<br>
-<p>content with p tag</p>
-<details>
-  <summary> 答え </summary>
-  <p>A. 2500</p>
-  <p>下の図の様に二つのブロックに分けて考える。<br>
-  \(A+B=5050\)であり、AとBの差は1ずつ50回あるので
-  \(B-A=50\)<br>
-  従って奇数のブロックは\(A=2500\)</p>
-</details>
-to here
+  <h3 class="title" id = "一文字違い">一文字違い</h3>
+  <div class="statement">
+  <p>以下の同じ記号に同じ文字を入れてください</p>
+  <details>
+    <summary> 答え </summary>
+    <p>じねんじょ/じゅんじょ</p>
+    <p>下の図の様に二つのブロックに分けて考える。<br>
+    \(A+B=5050\)であり、AとBの差は1ずつ50回あるので
+    \(B-A=50\)</p>
+  </details>
+  </div>
 </div>
 
 ---
 
 <div class = "question">
-  <h3 class="title" id = "問題タイトル">問題タイトル、titleクラス</h3>
-  <h3 id = "問題タイトル-サイズのテスト">問題タイトル、ただのh3タグ</h3>
+  <h3 id = "一文字違いテスト">一文字違いテスト</h3>
   <div class="statement">
-  <p>content with p tag</p>
+  <p>以下の同じ記号に同じ文字を入れてください</p>
   <details>
     <summary> 答え </summary>
-    <p>A. 2500</p>
+    <p>じねんじょ/じゅんじょ</p>
     <p>下の図の様に二つのブロックに分けて考える。<br>
     \(A+B=5050\)であり、AとBの差は1ずつ50回あるので
-    \(B-A=50\)<br>
-    従って奇数のブロックは\(A=2500\)</p>
+    \(B-A=50\)</p>
   </details>
   </div>
 </div>

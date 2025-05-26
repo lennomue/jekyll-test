@@ -6817,8 +6817,9 @@ pre {
 }
 
 .question .title {
-    font-size: 1.2em;
-    letter-spacing: 0.1em;
+    margin-top: 5px;
+    // font-size: 1.2em;
+    // letter-spacing: 0.1em;
 }
 
 .question .statement {
@@ -6830,4 +6831,10 @@ pre {
     margin-bottom: 1.2em;
     position: relative;   // z-indexを効かせるため
     z-index: 1;
+}
+
+.center-text {
+    text-align: center;     /* 中央揃え */
+    font-weight: bold;      /* 太字 */
+    font-size: 24px;        /* サイズ指定（例: 24px） */
 }
