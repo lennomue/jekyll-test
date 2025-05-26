@@ -6827,14 +6827,14 @@ pre {
     padding: 1em;
     border: solid 1px #2e4a5f;
     border-radius: 5px;
-    background-color: #d3d3d3;
+    background-color: #ffffff;
     font-size: 1em;
-    margin-bottom: 12px;
+    margin-bottom: 0px;
     position: relative;   // z-indexを効かせるため
     z-index: 1;
 }
 
-.center-text {
+.page-title {
     text-align: center;     /* 中央揃え */
     font-weight: bold;      /* 太字 */
     font-size: 40px;        /* サイズ指定（例: 24px） */
