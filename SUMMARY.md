@@ -7,7 +7,7 @@ title: "保管庫"
 [TOP](./index.html) > [保管庫](./SUMMARY.html)
 
 ---
-# 保管庫
+<div class="page-title">保管庫</div>
 
 ---
 <p style="color: gray; font-size: 12px;">

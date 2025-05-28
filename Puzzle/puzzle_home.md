@@ -7,7 +7,8 @@ title: "パズル！"  # ページのタイトル
 [TOP](../index.html) > [保管庫](../SUMMARY.html) > [パズル](./puzzle_home.md)
 
 ---
-# パズル！
+<div class="page-title">パズル！</div>
+
 ---
 <p style="color: gray; font-size: 12px;">
 最終更新(2025/02/27)　投稿日(2025/01/12)

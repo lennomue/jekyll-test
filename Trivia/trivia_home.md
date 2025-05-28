@@ -7,7 +7,7 @@ title: "トリビア!"
 [TOP](../index.md) > [保管庫](../SUMMARY.md) > [トリビア](./trivia_home.md)
 
 ---
-# トリビア！
+<div class="page-title">トリビア！</div>
 
 ---
 <p style="color: gray; font-size: 12px;">

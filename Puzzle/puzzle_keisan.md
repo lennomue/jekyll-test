@@ -7,7 +7,7 @@ title: "パズル！ - 計算"  # ページのタイトル
 [TOP](../index.html) > [保管庫](../SUMMARY.html) > [パズル](./puzzle_home.html) > [計算](./puzzle_keisan.html)
 
 ---
-<div class="page-title">パズル！-計算</div>
+<div class="page-title">パズル！ - 計算</div>
 
 ---
 
@@ -93,7 +93,7 @@ Q. 1から100までの整数を全て足すと5050。ではその中に含まれ
     <summary> 答え </summary>
     <p>A. じねんじょ/じゅんじょ</p>
     <p>考えやすい下のヒントを先に見ましょう。「じゅんばん」や「じゅんじょ」を想起できれば、上のヒントで「じねん~」と絞って答えに行けます。自然薯を知りたいところ<br>
-    引用元: <a href="https://youtu.be/C0wOIlbSQrY?t=340">動画</a>, <a href="https://www.youtube.com/@capriccio">カプリティオチャンネル</a></p>
+    引用元: <a href="https://youtu.be/C0wOIlbSQrY?t=340" target="_blank" rel="noopener">動画</a>, <a href="https://www.youtube.com/@capriccio" target="_blank" rel="noopener">カプリティオチャンネル</a></p>
   </details>
   </div>
 </div>
