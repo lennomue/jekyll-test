@@ -85,16 +85,19 @@ Q. 1から100までの整数を全て足すと5050。ではその中に含まれ
 <div class = "question">
   <h3 class="title" id = "一文字違い">一文字違い</h3>
   <div class="statement">
-  <p>Q. 以下の同じ記号に同じ文字を入れてください</p>
-  <div style="text-align: center;">
-    <img src="../Image/puzzle/sonota/puzzle_sonota_ichimojichigai.jpg" style="width: 300px;">
+    <p>Q. 以下の同じ記号に同じ文字を入れてください</p>
+    <div style="text-align: center;">
+      <img src="../Image/puzzle/sonota/puzzle_sonota_ichimojichigai.jpg" style="width: 300px;">
+    </div>
   </div>
-  <details>
-    <summary> 答え </summary>
-    <p>A. じねんじょ/じゅんじょ</p>
-    <p>考えやすい下のヒントを先に見ましょう。「じゅんばん」や「じゅんじょ」を想起できれば、上のヒントで「じねん~」と絞って答えに行けます。自然薯を知りたいところ<br>
-    引用元: <a href="https://youtu.be/C0wOIlbSQrY?t=340" target="_blank" rel="noopener">動画</a>, <a href="https://www.youtube.com/@capriccio" target="_blank" rel="noopener">カプリティオチャンネル</a></p>
-  </details>
+  <div class="statement">
+    <details>
+      <summary> 答え </summary>
+      <p>A. じねんじょ/じゅんじょ</p>
+      <p>考えやすい下のヒントを先に見ましょう。「じゅんばん」や「じゅんじょ」を想起できれば、上のヒントで「じねん~」と絞って答えに行けます。<br>
+      引用元: <a href="https://youtu.be/C0wOIlbSQrY?t=340" target="_blank" rel="noopener">動画</a>, <a href="https://www.youtube.com/@capriccio" target="_blank" rel="noopener">カプリティオチャンネル</a></p>
+    </details>
+  </div>
   </div>
 </div>
 
